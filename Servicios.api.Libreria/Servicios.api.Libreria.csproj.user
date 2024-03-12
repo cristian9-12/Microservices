@@ -4,5 +4,6 @@
     <Controller_SelectedScaffolderID>ApiControllerEmptyScaffolder</Controller_SelectedScaffolderID>
     <Controller_SelectedScaffolderCategoryPath>root/Controller</Controller_SelectedScaffolderCategoryPath>
     <ActiveDebugProfile>Docker</ActiveDebugProfile>
+    <NameOfLastUsedPublishProfile>C:\microservice\Microservices\Servicios.api.Libreria\Properties\PublishProfiles\registry.hub.docker.com_dvboga.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

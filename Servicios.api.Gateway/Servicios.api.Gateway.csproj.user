@@ -2,5 +2,6 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ActiveDebugProfile>Docker</ActiveDebugProfile>
+    <NameOfLastUsedPublishProfile>C:\microservice\Microservices\Servicios.api.Gateway\Properties\PublishProfiles\registry.hub.docker.com_dvboga.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

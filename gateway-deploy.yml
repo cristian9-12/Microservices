@@ -18,8 +18,8 @@ spec:
           app: gateway
           type: microservice
       spec:
-      containers:
-        - name: gateway-app
-          image: dvboga/serviciosapigateway:latest
-          ports:
-            - containerPort: 80
+        containers:
+          - name: gateway-app
+            image: dvboga/serviciosapigateway:latest
+            ports:
+              - containerPort: 80
