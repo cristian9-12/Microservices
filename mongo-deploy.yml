@@ -11,7 +11,7 @@ spec:
     matchLabels:
       app: microservice-libreria
       name: mongo-pod
-    template:
+  template:
       metadata:
         name: mongo-pod
         labels:
