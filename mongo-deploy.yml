@@ -22,6 +22,8 @@ spec:
           - name: mongo
             image: mongo:5.0.25
             command:
+              - sleep
+              - "3600000"
               - /bin/bash
               - -c
             env:
