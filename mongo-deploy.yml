@@ -23,7 +23,7 @@ spec:
             image: mongo:latest
             command:
               - /bin/sh
-              - "-c"
+              - -c
               - sleep
               - "3600000"
             imagePullPolicy: Always
