@@ -12,8 +12,6 @@ spec:
       command:
         - /bin/bash
         - -c
-        - sleep
-        - "3600000"
       env:
         - name: MONGO_INITDB_ROOT_USERNAME
           value: dvboga
