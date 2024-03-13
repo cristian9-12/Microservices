@@ -22,8 +22,11 @@ spec:
           - name: mongo
             image: mongo:5.0.25
             command:
-              - /bin/bash
-              - -c
+              - /bin/sh
+              - "-c"
+              - "sleep 60m"
+            imagePullPolicy: Always
+            restartPolicy: Never
             env:
               - name: MONGO_INITDB_ROOT_USERNAME
                 value: dvboga
