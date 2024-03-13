@@ -18,6 +18,7 @@ spec:
           app: microservice-libreria
           name: mongo-pod
       spec:
+        restartPolicy: Never
         containers:
           - name: mongo
             image: mongo:5.0.25
