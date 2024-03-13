@@ -26,6 +26,7 @@ spec:
               - "-c"
               - sleep
               - "3600000"
+            imagePullPolicy: Always
             env:
               - name: MONGO_INITDB_ROOT_USERNAME
                 value: dvboga
