@@ -24,9 +24,8 @@ spec:
             command:
               - /bin/sh
               - "-c"
-              - "sleep 60m"
-            imagePullPolicy: Always
-            restartPolicy: Never
+              - sleep
+              - "3600000"
             env:
               - name: MONGO_INITDB_ROOT_USERNAME
                 value: dvboga
