@@ -21,6 +21,13 @@ spec:
         containers:
           - name: mongo
             image: mongo:latest
+            resources:
+              requests:
+                memory: "64Mi"  # Solicitar 64 MiB de memoria
+                cpu: "250m"     # Solicitar 250 milicores de CPU
+              limits:
+                memory: "128Mi" # Establecer un límite máximo de 128 MiB de memoria
+                cpu: "500m"     # Establecer un límite máximo de 500 milicores de CPU
             command:
               - /bin/sh
               - -c
