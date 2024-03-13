@@ -18,6 +18,6 @@ spec:
         - name: MONGO_INITDB_ROOT_USERNAME
           value: dvboga
         - name: MONGO_INITDB_ROOT_PASSWORD
-          value: "$Dvboga"
+          value: "$Dvboga564651**"
       ports:
         - containerPort: 27017
