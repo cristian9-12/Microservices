@@ -21,8 +21,5 @@ spec:
         containers:
           - name: gateway-app
             image: dvboga/serviciosapigateway:latest
-            command:
-              - sleep
-              - "3600000"
             ports:
               - containerPort: 80
